@@ -73,6 +73,31 @@
           "model": "card"
         },
         {
+          "title": "Carousel",
+          "id": "carousel",
+          "plugins": {
+            "da": {
+              "name": "carousel",
+              "rows": 1,
+              "columns": 1
+            }
+          },
+          "model": "carousel",
+          "filter": "carousel"
+        },
+        {
+          "title": "Carousel Item",
+          "id": "carousel-item",
+          "plugins": {
+            "da": {
+              "name": "carousel-item",
+              "rows": 1,
+              "columns": 0
+            }
+          },
+          "model": "carousel-item"
+        },
+        {
           "title": "Columns",
           "id": "columns",
           "plugins": {
@@ -102,6 +127,31 @@
             }
           },
           "model": "hero"
+        },
+        {
+          "title": "Cards List",
+          "id": "cards-list",
+          "plugins": {
+            "da": {
+              "name": "cards-list",
+              "rows": 1,
+              "columns": 2
+            }
+          },
+          "model": "cards-list",
+          "filter": "cards-list"
+        },
+        {
+          "title": "Cards List Item",
+          "id": "cards-list-item",
+          "plugins": {
+            "da": {
+              "name": "cards-list-item",
+              "rows": 2,
+              "columns": 0
+            }
+          },
+          "model": "cards-list-item"
         }
       ]
     }
