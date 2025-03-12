@@ -192,5 +192,53 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "carousel-item",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[src]",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "div:nth-child(1)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "label": "Image Alt",
+        "multi": false
+      }
+    ]
+  },
+  {
+    "id": "cards-list-item",
+    "fields": [
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>h3:nth-child(1)",
+        "label": "Title",
+        "valueType": "string"
+      },
+      {
+        "component": "reference",
+        "name": "div:nth-child(1)>p:nth-child(2)>picture:nth-child(1)>img:nth-child(3)[src]",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "name": "div:nth-child(1)>p:nth-child(2)>picture:nth-child(1)>img:nth-child(3)[alt]",
+        "label": "Image Alt",
+        "multi": false
+      },
+      {
+        "component": "richtext",
+        "name": "div:nth-child(2)",
+        "label": "Card Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
